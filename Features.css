@@ -1,0 +1,32 @@
+body {
+  font-family: Inter;
+  background-color: #ffffff;
+}
+
+.button-main {
+  color: white;
+  background-color: #19345e;
+  border: #19345e;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-weight: normal;
+}
+
+.icon-play {
+  padding: 10px;
+  background-color: white;
+  border-radius: 60%;
+  border: 1px solid #19345e;
+}
+
+.icon-arrow {
+  padding: 10px;
+  background-color: #e7ebfc;
+  border-radius: 50%;
+}
+
+.text-footer {
+  color: white;
+  text-decoration: none;
+}

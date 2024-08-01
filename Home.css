@@ -1,0 +1,91 @@
+body {
+  font-family: Inter;
+  background-color: #ffffff;
+}
+
+.button-main {
+  color: white;
+  background-color: #19345e;
+  border: #19345e;
+  padding: 8px 15px;
+  font-weight: normal;
+}
+
+.icon-play {
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  border: 1px solid #19345e;
+}
+
+.icon-arrow {
+  padding: 10px;
+  background-color: #e7ebfc;
+  border-radius: 50%;
+}
+
+.timeline-steps {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.timeline-steps .timeline-step {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 1rem;
+}
+
+@media (min-width: 768px) {
+  .timeline-steps .timeline-step:not(:last-child):after {
+    content: "";
+    display: block;
+    border-top: 0.25rem dotted #19345e;
+    width: 11.8125rem;
+    position: absolute;
+    top: 0.5rem;
+  }
+  .timeline-steps .timeline-step:not(:first-child):before {
+    content: "";
+    display: block;
+    border-top: 0.25rem dotted #19345e;
+    width: 11.8125rem;
+    position: absolute;
+    top: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .succes-story {
+    margin: auto;
+    padding-right: 40px;
+  }
+  .case-study {
+    padding-bottom: 30px;
+  }
+  .nowadays {
+    line-height: 1px;
+  }
+}
+
+.timeline-steps .timeline-content {
+  width: 15rem;
+  text-align: start;
+}
+
+.timeline-steps .timeline-content .inner-circle {
+  border-radius: 1.5rem;
+  height: 1rem;
+  width: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #19345e;
+}
+
+.text-footer {
+  color: white;
+  text-decoration: none;
+}

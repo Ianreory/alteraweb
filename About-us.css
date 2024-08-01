@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+}
+
+/* connect */
+
+.text-footer {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .text-cek {
+    font-size: large;
+  }
+  .custom {
+    margin: auto;
+  }
+  .customisi {
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .panah {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 506px) {
+  .customisi {
+    margin-left: 1px;
+  }
+}
